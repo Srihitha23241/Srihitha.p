@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f7f6;
+}
+
+/* Calculator container with background and shadow for 3D effect */
+.calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+/* Display area where results are shown, styled for clarity */
+#display {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Button grid layout for calculator buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
+  grid-gap: 10px;
+}
+
+/* General button styling for all calculator buttons */
+button {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Button hover effect for better interactivity */
+button:hover {
+  background-color: pink;
+}
